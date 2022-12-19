@@ -12,7 +12,13 @@ import { useGlobalStateContext } from "../../context/StateContext";
 const ProductDetails = ({ product, products }) => {
   const { name, image, details, price } = product;
   const [index, setIndex] = useState(0);
-  const { qty, incQty, decQty, onAdd } = useGlobalStateContext();
+  const { qty, incQty, decQty, onAdd, setShowCart } = useGlobalStateContext();
+
+  const handleBuyNow = () => {
+    onAdd(product, qty);
+
+    setShowCart(true);
+  };
 
   return (
     <div>
@@ -72,7 +78,7 @@ const ProductDetails = ({ product, products }) => {
             >
               Add to Cart
             </button>
-            <button type="button" className="buy-now">
+            <button type="button" className="buy-now" onClick={handleBuyNow}>
               Buy Now
             </button>
           </div>
