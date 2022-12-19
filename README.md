@@ -10,12 +10,12 @@ Use this Demo Credit Card at checkout: `4242424242424242` 04/24 `424`
 
 ## Screenshots
 
-![Home Page](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![Product Details](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![Products](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![Cart](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![Checkout](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![Success](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Home Page](https://github.com/catuchi/SENSEE/blob/main/public/assets/homepage.png?raw=true)
+![Product Details](https://github.com/catuchi/SENSEE/blob/main/public/assets/productDetails.png?raw=true)
+![Products](https://github.com/catuchi/SENSEE/blob/main/public/assets/products.png?raw=true)
+![Cart](https://github.com/catuchi/SENSEE/blob/main/public/assets/cart.png?raw=true)
+![Checkout](https://github.com/catuchi/SENSEE/blob/main/public/assets/checkout.png?raw=true)
+![Success](https://github.com/catuchi/SENSEE/blob/main/public/assets/success.png?raw=true)
 
 ## Environment Variables
 
