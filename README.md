@@ -1,34 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SENSEE
 
-## Getting Started
+E-commerce application using Sanity (Content Management System), stripe payment and next.js
 
-First, run the development server:
+## Demo
 
-```bash
-npm run dev
-# or
-yarn dev
+This app was deployed using Vercel. Click here for live demo -> [SENSEE](https://sensee.vercel.app/)
+
+Use this Demo Credit Card at checkout: `4242424242424242` 04/24 `424`
+
+## Screenshots
+
+![Home Page](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Product Details](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Products](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Cart](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Checkout](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Success](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`NEXT_PUBLIC_SANITY_TOKEN`
+
+`NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
+
+`STRIPE_SECRET_KEY`
+
+This project backend is serviced by sanity. Click [here](https://www.youtube.com/watch?v=bDVAQZVeebw) to learn how to use Sanity and get your sanity token.
+
+Also visit [Stripe](https://stripe.com/) to get stripe publishable and secret key
+
+## Run Locally
+
+Version Requirements
+
+```js
+"engines": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  }
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Clone the project
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+  git clone git@github.com:catuchi/SENSEE.git
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Go to the project directory
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  cd SENSEE
+```
 
-## Learn More
+Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+  npm run dev
+```
 
-## Deploy on Vercel
+## Related
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Here are some other cool projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Scheduler](https://github.com/catuchi/scheduler)
+[Reminisce](https://github.com/catuchi/reminisce)
+[Tweeter](https://github.com/catuchi/tweeter)
+[Jungle](https://github.com/catuchi/jungle-rails)
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://chibu-atuchi.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chibu-atuchi/)
+[![twitter](https://img.shields.io/badge/gmail-1DA1F2?style=for-the-badge&logo=gmail&logoColor=red)](mailto:atuchibueze@gmail.com)
+
+## Authors
+
+- Chibu Atuchi - [@catuchi](https://www.github.com/catuchi)
