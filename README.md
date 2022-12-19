@@ -29,7 +29,7 @@ To run this project, you will need to add the following environment variables to
 
 This project backend is serviced by sanity. Click [here](https://www.youtube.com/watch?v=bDVAQZVeebw) to learn how to use Sanity and get your sanity token.
 
-Also visit [Stripe](https://stripe.com/) to get stripe publishable and secret key
+Also visit [Stripe](https://stripe.com/) to get stripe publishable and secret keys
 
 ## Run Locally
 
